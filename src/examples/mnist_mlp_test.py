@@ -1,11 +1,16 @@
-"""Trains a simple fully connected NN on the MNIST dataset."""
+"""Trains a simple fully connected NN on the MNIST dataset.
+
+tensorflow==1.13.1
+keras==2.2.4
+
+"""
 
 from __future__ import print_function
 
 import time
 import argparse
 import sys
-sys.path.append('./')
+sys.path.append('./')  # ideally, modules inside packages are not run as main...
 
 from importance_sampling.training_bandit_package import ImportanceTraining, BanditImportanceTraining
 
