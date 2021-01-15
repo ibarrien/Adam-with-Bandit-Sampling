@@ -103,10 +103,10 @@ if __name__ == "__main__":
         verbose=1,
         validation_data=(x_test, y_test)
     )
+    sampler_end_time = time.time()
     sampler_score = model.evaluate(x_test, y_test, verbose=0)
     print('Test loss:', sampler_score[0])
     print('Test accuracy:', sampler_score[1])
-    sampler_end_time = time.time()
     sampler_train_time = sampler_end_time - sampler_start_time
     sampler_score = model.evaluate(x_test, y_test, verbose=0)
     sampler_test_loss, sampler_test_acc = sampler_score[0], sampler_score[1]
