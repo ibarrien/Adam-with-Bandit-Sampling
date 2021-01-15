@@ -12,7 +12,7 @@ import argparse
 import sys
 sys.path.append('./')  # ideally, modules inside packages are not run as main...
 
-from importance_sampling.training_bandit_package import ImportanceTraining, BanditImportanceTraining
+from src.training import ImportanceTraining, BanditImportanceTraining
 
 
 import keras
