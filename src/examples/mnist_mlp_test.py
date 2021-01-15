@@ -1,8 +1,20 @@
-"""Trains a simple fully connected NN on the MNIST dataset.
+"""
+1. Train a simple fully connected NN on the MNIST dataset.
+2. Compare uniform batch sampling vs Bandit sampling.
 
 tensorflow==1.13.1
 keras==2.2.4
 
+#
+# Copyright (c) 2017 Idiap Research Institute, http://www.idiap.ch/
+# Written by Angelos Katharopoulos <angelos.katharopoulos@idiap.ch>
+#
+
+Banit Sampling paper:
+https://arxiv.org/abs/2010.12986
+
+
+@editor: ibarrien
 """
 
 from __future__ import print_function
