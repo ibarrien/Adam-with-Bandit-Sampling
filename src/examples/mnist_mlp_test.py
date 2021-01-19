@@ -33,9 +33,6 @@ from keras.models import Sequential
 from keras.layers import Activation, Dense
 from keras.optimizers import RMSprop
 from keras.regularizers import l2
-
-from importance_sampling.training import ImportanceTraining
-from importance_sampling.training_bandit_package import BanditImportanceTraining
 from example_utils import get_parser
 
 if __name__ == "__main__":
