@@ -13,6 +13,8 @@ keras==2.2.4
 Banit Sampling paper:
 https://arxiv.org/abs/2010.12986
 
+HOW TO RUN:
+Adam-with-Bandit-Sampling> python src\examples\mnist_mlp_test.py
 
 @editor: ibarrien
 """
