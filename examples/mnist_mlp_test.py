@@ -25,10 +25,8 @@ import argparse
 import numpy as np
 from matplotlib import pyplot as plt
 
-from mnist_config import Config
+from mnist_mlp_config import Config
 from example_utils import get_parser, TimeHistory
-import sys
-sys.path.append('./')
 from src.training import ImportanceTraining, BanditImportanceTraining
 
 import keras
