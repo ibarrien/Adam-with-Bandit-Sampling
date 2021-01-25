@@ -1,0 +1,40 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.sln",
+				"*.pyproj",
+				"*.eml",
+				"*.tex",
+				"*.jpg",
+				"*.html",
+				"*.pickle",
+				"*.npy",
+				"*.gz",
+				"*.pic",
+				"*.dat",
+				"**.pth",
+				"*.ipynb",
+				"*.blg",
+				"*.bbl",
+				"*.bib",
+				"*.pkl",
+				"*.mp4",
+				"*.mat",
+				"*.csv",
+				"*.aux"
+			],
+			"folder_exclude_patterns":
+			[
+				".vs",
+				"__pycache__",
+				"thumbnail_image",
+				"venv4"
+			],
+			"path": "D:\\Dev\\ML\\batching\\Adam-with-Bandit-Sampling"
+		}
+	],
+	"virtualenv": "D:\\Dev\\ML\\batching\\Adam-with-Bandit-Sampling\\venv4"
+}

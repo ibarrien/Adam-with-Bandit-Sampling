@@ -10,11 +10,11 @@ keras==2.2.4
 # Written by Angelos Katharopoulos <angelos.katharopoulos@idiap.ch>
 #
 
-Banit Sampling paper:
+Bandit Sampling paper:
 https://arxiv.org/abs/2010.12986
 
 HOW TO RUN:
-Adam-with-Bandit-Sampling> python examples\mnist_mlp_test.py
+Adam-with-Bandit-Sampling> python examples/mnist_mlp_test.py
 
 @editor: ibarrien
 """
@@ -27,7 +27,7 @@ from matplotlib import pyplot as plt
 
 from mnist_mlp_config import Config
 from example_utils import get_parser, TimeHistory
-from src.training import ImportanceTraining, BanditImportanceTraining
+from banditutils.training import ImportanceTraining, BanditImportanceTraining
 
 import keras
 from keras.datasets import mnist

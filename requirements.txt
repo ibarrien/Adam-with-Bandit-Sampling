@@ -1,3 +1,5 @@
-python==3.x
+wheel
 tensorflow==1.13.1
 keras==2.2.4
+blinker
+matplotlib
